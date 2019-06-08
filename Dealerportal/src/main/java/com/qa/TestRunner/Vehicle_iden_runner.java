@@ -7,6 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+		
 		features = "C:\\Users\\poorn\\eclipse-workspace\\com.VFS\\src\\main\\java\\Cucumber\\com\\VFS\\vehiclecoverchk.feature", //the path of the feature files
 		glue={"vehicle_stepdefinition"}, //the path of the step definition files
 		
